@@ -20,12 +20,13 @@ export default function Index() {
     <Container>
       <Title>Bem Vindo</Title>
       <Description>
-        Controle as suas finanças de maneira fácil, entre e experimente
+        Controle as suas finanças de maneira fácil, <br/> entre e experimente
       </Description>
       <Lottie
         options={defaultOptions}
-        height={250}
-        width={250}
+        height={300}
+        width={300}
+        style={{marginTop: 30}}
       />
       <Buttons>
         <Link to="/login">
